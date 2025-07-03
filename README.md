@@ -43,7 +43,8 @@ source .venv/bin/activate
 ```
 ---
 
-### 4. Activate the Virtual Environment
+### 4. Activate the Virtual Environment (Depending on the CLI use .ps1 for powershell and .bat for cmd)
+- Example: .\.\venv\Scripts\activate.ps1
 
 ```sh
 # On Windows:
