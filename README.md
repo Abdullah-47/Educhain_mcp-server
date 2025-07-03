@@ -75,8 +75,10 @@ You can interact with the MCP server using Claude Desktop for a seamless chat ex
 
 - **Download Claude Desktop:** [https://claude.ai/desktop](https://claude.ai/desktop)
 
-mcp install server.py
-
+- **Install server on Claude Desktop:**
+  ```sh
+  mcp install server.py
+  ```
 > _Leave space here for a screenshot of Claude Desktop_
 
 ---
