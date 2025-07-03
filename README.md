@@ -29,9 +29,6 @@ cd educhain-mcp-server
 uv init
 uv add "mcp[cli]" educhain
 ```
-
-> _Leave space here for a screenshot of uv installation_
-
 ---
 
 ### 3. Alternatively, Install with pip
@@ -44,9 +41,6 @@ pip install "mcp[cli]" educhain
 source .venv/bin/activate
 
 ```
-
-> _Leave space here for a screenshot of pip installation_
-
 ---
 
 ### 4. Activate the Virtual Environment
