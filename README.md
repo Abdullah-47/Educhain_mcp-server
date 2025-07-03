@@ -26,9 +26,8 @@ cd educhain-mcp-server
 ### 2. Install with [uv](https://github.com/astral-sh/uv) (Recommended)
 
 ```sh
-uv init mcp-server-demo
-cd mcp-server-demo
-uv add "mcp[cli]"
+uv init
+uv add "mcp[cli]" educhain
 ```
 
 > _Leave space here for a screenshot of uv installation_
@@ -38,14 +37,12 @@ uv add "mcp[cli]"
 ### 3. Alternatively, Install with pip
 
 ```sh
-pip install "mcp[cli]"
+pip install "mcp[cli]" educhain
 # On Windows:
 .\.venv\Scripts\activate
 # On macOS/Linux:
 source .venv/bin/activate
 
-pip install -r requirements.txt
-pip install -e .
 ```
 
 > _Leave space here for a screenshot of pip installation_
@@ -61,26 +58,24 @@ pip install -e .
 # On macOS/Linux:
 source .venv/bin/activate
 ```
+## Configuration
 
-> _Leave space here for a screenshot of venv activation_
-
----
-
-## Running the Server
-
-```sh
-python server.py
-```
-
-> _Leave space here for a screenshot of server output_
+- Set your API keys in a `.env` file:
+  ```
+  OPENAI_API_KEY=your-openai-key
+  GEMINI_API_KEY=your-gemini-key
+  ```
 
 ---
+
 
 ## Using Claude Desktop
 
 You can interact with the MCP server using Claude Desktop for a seamless chat experience.
 
 - **Download Claude Desktop:** [https://claude.ai/desktop](https://claude.ai/desktop)
+
+mcp install server.py
 
 > _Leave space here for a screenshot of Claude Desktop_
 
@@ -95,16 +90,6 @@ To explore and test your MCP resources, use the [MCP Inspector]:
   ```
 
 > _Leave space here for a screenshot of MCP Inspector_
-
----
-
-## Configuration
-
-- Set your API keys in a `.env` file:
-  ```
-  OPENAI_API_KEY=your-openai-key
-  GEMINI_API_KEY=your-gemini-key
-  ```
 
 ---
 
