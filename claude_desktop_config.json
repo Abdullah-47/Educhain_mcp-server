@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:/Users/ansar/Desktop",
+        "C:/Users/ansar/Downloads"
+      ]
+    },
+    "Educhain Server": {
+      "command": "C:\\Users\\ansar\\.local\\bin\\uv.EXE",
+      "args": [
+        "run",
+        "--with",
+        "educhain",
+        "--with",
+        "mcp[cli]",
+        "mcp",
+        "run",
+        "C:\\Users\\ansar\\Downloads\\Educhain\\mcp-server\\server.py"
+      ]
+    }
+  }
+}

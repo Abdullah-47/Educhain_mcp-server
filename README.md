@@ -74,7 +74,7 @@ You can interact with the MCP server using Claude Desktop for a seamless chat ex
   ```sh
   mcp install server.py
   ```
-> _Leave space here for a screenshot of Claude Desktop_
+![Tools on Claude Desktop](/Images/image.png)
 
 ---
 
@@ -86,7 +86,7 @@ To explore and test your MCP resources, use the [MCP Inspector]:
   mcp dev server.py
   ```
 
-> _Leave space here for a screenshot of MCP Inspector_
+![MCP Inspector](/Images/Image%202.png)
 
 ---
 
